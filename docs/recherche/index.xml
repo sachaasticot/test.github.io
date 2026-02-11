@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BVRE Réal Collobrier on Inrae</title>
-    <link>https://sachaasticot.github.io/rhax-website.io/recherche/</link>
+    <link>https://sachaasticot.github.io/test.github.io/recherche/</link>
     <description>Recent content in BVRE Réal Collobrier on Inrae</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="https://sachaasticot.github.io/rhax-website.io/recherche/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language><atom:link href="https://sachaasticot.github.io/test.github.io/recherche/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

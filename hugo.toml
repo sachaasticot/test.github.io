@@ -16,27 +16,25 @@ title = "Inrae"
   url = "/recherche/publications/"
   weight = 2
 
-[menu]
-  [[menu.main]]
-    name = "Rhax"
-    url = "/"
-    weight = 1
-
-
- [[menu.main]]
-    name = "Recherches"
-    url = "/recherche/"
-    weight = 3
+[[menu.main]]
+  name = "Rhax"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
-name = "Équipe"
-url = "/equipe/"
-weight = 2
+  name = "Recherches"
+  url = "/recherche/"
+  weight = 3
 
 [[menu.main]]
-name = "Outils"
-url = "/outils/"
-weight = 6
+  name = "Équipe"
+  url = "/equipe/"
+  weight = 2
+
+[[menu.main]]
+  name = "Outils"
+  url = "/outils/"
+  weight = 6
 
 [markup]
   [markup.goldmark]
