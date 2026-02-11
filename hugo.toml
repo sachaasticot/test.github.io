@@ -27,9 +27,22 @@ title = "Inrae"
   weight = 3
 
 [[menu.main]]
+  identifier = "equipe"
   name = "Équipe"
   url = "/equipe/"
   weight = 2
+
+[[menu.main]]
+  name = "Équipe actuelle"
+  url = "/equipe/actuel/"
+  parent = "equipe"
+  weight = 1
+
+[[menu.main]]
+  name = "Anciens membres"
+  url = "/equipe/anciens/"
+  parent = "equipe"
+  weight = 2 
 
 [[menu.main]]
   name = "Outils"
