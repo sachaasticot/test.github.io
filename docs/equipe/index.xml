@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Équipe on Inrae</title>
+    <title>Equipes on Inrae</title>
     <link>https://sachaasticot.github.io/test.github.io/equipe/</link>
-    <description>Recent content in Équipe on Inrae</description>
+    <description>Recent content in Equipes on Inrae</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language><atom:link href="https://sachaasticot.github.io/test.github.io/equipe/index.xml" rel="self" type="application/rss+xml" />
   </channel>

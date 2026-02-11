@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anciens membres on Inrae</title>
+    <link>https://sachaasticot.github.io/test.github.io/equipe/anciens/</link>
+    <description>Recent content in Anciens membres on Inrae</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="https://sachaasticot.github.io/test.github.io/equipe/anciens/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
