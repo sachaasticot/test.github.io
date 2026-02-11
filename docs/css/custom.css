@@ -180,38 +180,6 @@ p {
     margin-bottom: 0em;
 }
 
-.right-banner {
-    position: fixed;       /* fixe par rapport à la fenêtre */
-    top: 50%;              /* milieu vertical de la fenêtre */
-    right: calc((100vw - 100%) / 2);
-    transform: translateY(-50%); /* centre exactement */
-    background-color: #ffcc00;
-    padding: 10px 20px;
-    border-radius: 8px 0 0 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    z-index: 9999;         /* au-dessus de tout */
-}
-
-#floating-layer {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 10000;
-}
-
-#floating-layer .right-banner {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  pointer-events: auto;
-
-  background-color: #ffcc00;
-  padding: 10px 20px;
-  border-radius: 8px 0 0 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
 body::before {
   content: "CUSTOM CSS OK";
   position: fixed;
