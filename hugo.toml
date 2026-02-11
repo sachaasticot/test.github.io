@@ -1,0 +1,52 @@
+baseURL = "https://sachaasticot.github.io/rhax-website.io/"
+publishDir = "docs"
+theme = "hugo-clarity"
+languageCode = "fr-fr"
+title = "Inrae"
+
+
+
+[[menu.sidebar]]
+  name = "RHAX"
+  url = "/"
+  weight = 1
+
+[[menu.sidebar]]
+  name = "Publications"
+  url = "/recherche/publications/"
+  weight = 2
+
+[menu]
+  [[menu.main]]
+    name = "Rhax"
+    url = "/"
+    weight = 1
+
+
+ [[menu.main]]
+    name = "Recherches"
+    url = "/recherche/"
+    weight = 3
+
+[[menu.main]]
+name = "Équipe"
+url = "/equipe/"
+weight = 2
+
+[[menu.main]]
+name = "Outils"
+url = "/outils/"
+weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  showDate = false
+  showReadingTime = false
+  showShare = false
+  customCSS = ["css/custom.css"]
+
+

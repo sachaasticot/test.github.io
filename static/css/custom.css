@@ -1,0 +1,225 @@
+.page-hero {
+  height: 250px; /* ← change CE nombre */
+  overflow: hidden;
+}
+
+.page-hero img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.sidebar 
+    position: fixed; /* pour qu'elle reste visible même quand on scroll */
+    top: 50%;        /* centré verticalement */
+    right: 0;        /* collé à droite */
+    transform: translateY(-50%);
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 9999;   /* au-dessus de tout */
+}
+
+
+/* Bande noire au-dessus des logos */
+.top-black-bar {
+  width: 100%;
+  height: 40px;   /* hauteur de la bande noir*/
+  background: #010405; /* même noir que le menu */
+  display : block; 
+  position: relative;
+  z-index: 50 /* au-dessus du header si nécessaire */
+}
+
+/* Banderole pleine largeur */
+.top-banner {
+  width: 100%;
+  background: white;
+  padding: 15px 0;
+  margin-top: 0px;
+position: relative; /* IMPORTANT : pas sticky */ 
+z-index: 10;
+
+}
+
+/* Logos alignés à gauche dans la banderole */
+.top-banner-logos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+margin-left: 30px; /* alignement à gauche */
+ width: fit-content; /* IMPORTANT : empêche l’étalement */
+
+}
+
+.top-banner-logos img {
+  width: auto;
+}
+
+/* Tailles individuelles des logos */
+.logo-rf {
+  height: 80px;
+}
+.logo-inrae {
+  height: 20px;
+}
+
+
+/* bande avec les menu */
+.menu-wrapper { 
+    width: 100%;
+  z-index: 100;
+  background: #010405; 
+}
+
+
+/* Contenu principal */
+main {
+  padding-top: 8px; /* laisse de la place pour le menu */
+}
+
+body {
+  display: block !important;
+  overflow: visible !important;
+}
+
+html, body {
+  scroll-padding-top: 0 !important;
+}
+
+html, body, #documentTop {
+  overflow: visible !important;
+  display: block !important;
+}
+
+header,
+.header {
+  position: relative !important;
+  top: auto !important;
+}
+
+/* Le conteneur du menu devient sticky */
+.menu-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #010405;
+}
+
+/* SUPPRIME l'espace vide laissé par Clarity */
+body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.home-hero {
+  height: 400px;
+  background-image: url("/images/home-banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-hero-content {
+  background: rgba(255,255,255,0.8);
+  color: white;
+  padding: 0.5px 10px;
+  text-align: center;
+}
+
+.titre-inrae {
+  color: #00a3a6;   /* Bleu officiel INRAE */
+  font-weight: bold; /* Optionnel, rend le texte gras */
+}
+
+/* Listes à puces */
+ul {
+  list-style-type: disc; /* affiche des points */
+  padding-left: 20px;
+  margin-bottom: 1em;
+
+ul li {
+  line-height: 1.5em;
+}
+ 
+/* Titres */
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 0.em; /* réduit l'espace après le titre */
+
+/* Texte normal */
+p {
+  text-align: justify;  /* justifie le texte comme sur ton image */
+  line-height: 1em;   /* espace entre les lignes */
+  margin-bottom: 0em;
+}
+
+
+/* --- Réduction de l'espace dans la page de recherche --- */
+
+/* Supprime l'espace sous les titres des résultats */
+#search-results .post_item h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Supprime l'espace au-dessus des paragraphes des extraits */
+#search-results .post_item p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Réduit un peu l'espace entre deux résultats */
+#search-results .post_item {
+    margin-bottom: 0em;
+}
+
+.right-banner {
+    position: fixed;       /* fixe par rapport à la fenêtre */
+    top: 50%;              /* milieu vertical de la fenêtre */
+    right: calc((100vw - 100%) / 2);
+    transform: translateY(-50%); /* centre exactement */
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 9999;         /* au-dessus de tout */
+}
+
+#floating-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+#floating-layer .right-banner {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  pointer-events: auto;
+
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  border-radius: 8px 0 0 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+body::before {
+  content: "CUSTOM CSS OK";
+  position: fixed;
+  top: 1000;
+  left: 0;
+  background: red;
+  color: white;
+  z-index: 999999;
+  padding: 5px;
+}
+

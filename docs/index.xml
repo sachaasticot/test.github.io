@@ -7,16 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language><atom:link href="https://sachaasticot.github.io/rhax-website.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Highlight 1</title>
-      <link>https://sachaasticot.github.io/rhax-website.io/highlights/highlight1/</link>
+      <title>Section 1</title>
+      <link>https://sachaasticot.github.io/rhax-website.io/sections/section1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sachaasticot.github.io/rhax-website.io/highlights/highlight1/</guid>
+      <guid>https://sachaasticot.github.io/rhax-website.io/sections/section1/</guid>
       <description>
         
           
-            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor, lorem
-eget malesuada ornare, mi velit gravida lacus, egestas consequat.&lt;/p&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut turpis et urna
+tempus tincidunt sit amet ac mauris. Aliquam eget cursus odio. Pellentesque
+habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Nunc id magna sollicitudin mi posuere ultricies id vitae ante. Sed iaculis leo
+at nulla molestie, non ornare ipsum rutrum. Nulla facilisi. Mauris tempus erat
+auctor enim pharetra aliquet. Phasellus placerat id neque quis aliquam. Morbi
+nec felis luctus, euismod libero vel, lacinia dui. Aenean et molestie urna.
+Aliquam erat volutpat. In et placerat ex, at tincidunt eros. Nam eu felis ut
+orci aliquet pulvinar.&lt;/p&gt;
           
           
         
@@ -24,16 +31,22 @@ eget malesuada ornare, mi velit gravida lacus, egestas consequat.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Highlight 2</title>
-      <link>https://sachaasticot.github.io/rhax-website.io/highlights/highlight2/</link>
+      <title>Section 2</title>
+      <link>https://sachaasticot.github.io/rhax-website.io/sections/section2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sachaasticot.github.io/rhax-website.io/highlights/highlight2/</guid>
+      <guid>https://sachaasticot.github.io/rhax-website.io/sections/section2/</guid>
       <description>
         
           
-            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor, lorem
-eget malesuada ornare, mi velit gravida lacus, egestas consequat.&lt;/p&gt;
+            &lt;p&gt;Ut eget erat dolor. Aliquam eget rutrum purus. Integer porttitor sem nec erat
+fermentum, eget varius sapien luctus. Fusce ut libero eros. Aenean nec sodales
+lorem. Curabitur pellentesque, lorem ac accumsan efficitur, libero purus
+ullamcorper sem, nec pharetra tortor elit non enim. Cras lobortis commodo diam,
+ut commodo ipsum consectetur eu. Phasellus id quam posuere, tempor velit rutrum,
+semper mauris. Fusce odio mi, varius a auctor vel, porta non mi. Duis suscipit
+erat ac mi mattis, venenatis pharetra nulla vulputate. Vestibulum leo purus,
+porta nec nunc quis, bibendum consequat massa.&lt;/p&gt;
           
           
         
@@ -41,16 +54,21 @@ eget malesuada ornare, mi velit gravida lacus, egestas consequat.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Highlight 3</title>
-      <link>https://sachaasticot.github.io/rhax-website.io/highlights/highlight3/</link>
+      <title>Section 3</title>
+      <link>https://sachaasticot.github.io/rhax-website.io/sections/section3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sachaasticot.github.io/rhax-website.io/highlights/highlight3/</guid>
+      <guid>https://sachaasticot.github.io/rhax-website.io/sections/section3/</guid>
       <description>
         
           
-            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor, lorem
-eget malesuada ornare, mi velit gravida lacus, egestas consequat.&lt;/p&gt;
+            &lt;p&gt;Donec vestibulum, justo eu lobortis accumsan, arcu diam euismod massa, molestie
+lobortis leo libero id tellus. Aenean commodo massa ac diam accumsan, a posuere
+ex volutpat. Donec ullamcorper et risus a accumsan. Morbi vitae consectetur
+erat. Curabitur tincidunt fermentum aliquet. Nullam at lacus ac justo dignissim
+pellentesque. Mauris malesuada rutrum nisi. Proin gravida, turpis vitae sagittis
+vehicula, nibh nunc iaculis arcu, eget tincidunt quam ante id enim. Ut sit amet
+arcu a quam scelerisque sodales. Morbi vitae nunc dui. Cras ut congue elit.&lt;/p&gt;
           
           
         
@@ -59,10 +77,10 @@ eget malesuada ornare, mi velit gravida lacus, egestas consequat.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://sachaasticot.github.io/rhax-website.io/highlights/_index.ca/</link>
+      <link>https://sachaasticot.github.io/rhax-website.io/sections/_index.ca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sachaasticot.github.io/rhax-website.io/highlights/_index.ca/</guid>
+      <guid>https://sachaasticot.github.io/rhax-website.io/sections/_index.ca/</guid>
       <description>
         
           
@@ -73,10 +91,10 @@ eget malesuada ornare, mi velit gravida lacus, egestas consequat.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://sachaasticot.github.io/rhax-website.io/highlights/_index.es/</link>
+      <link>https://sachaasticot.github.io/rhax-website.io/sections/_index.es/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sachaasticot.github.io/rhax-website.io/highlights/_index.es/</guid>
+      <guid>https://sachaasticot.github.io/rhax-website.io/sections/_index.es/</guid>
       <description>
         
           
