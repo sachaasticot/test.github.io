@@ -1,71 +1,60 @@
 {{- $s := site.Params }}
 {{- $p := .Params }}
 {{- $codeBlockConfig := partial "func/getCodeBlockSettings" . }}
+
 <!DOCTYPE html>
 <html
   lang="{{ .Lang }}"
   data-figures="{{ $p.figurePositionShow }}"
-  {{ if .IsPage }}
-    class="page"
-  {{ else if .IsHome }}
-    class="home"
-  {{ end }}
-  {{ with $s.enforceLightMode }}
-    data-mode="lit"
-  {{ end }}
-  {{ with $s.enforceDarkMode }}
-    data-mode="dim"
-  {{ end -}}
+  {{ if .IsPage }}class="page"{{ else if .IsHome }}class="home"{{ end }}
+  {{ with $s.enforceLightMode }}data-mode="lit"{{ end }}
+  {{ with $s.enforceDarkMode }}data-mode="dim"{{ end }}
 >
-  <head>
-    {{- partial "head" . }}
-<!-- link rel="stylesheet" href="/css/custom.css" -->
-    {{- partial "hooks/head-end" . }}
 
+<head>
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
-<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+  {{ partial "head" . }}
+  {{ partial "hooks/head-end" . }}
+
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
-<body>
-  {{ block "main" . }}{{ end }}
-</body>
 
-  </head>
-  <body
-    data-code="{{ $codeBlockConfig.max }}"
-    data-lines="{{ $codeBlockConfig.lines }}"
-    id="documentTop"
-    data-lang="{{ .Lang }}"
-  >
-    {{- partialCached "scripts/google/tag-manager" (dict "noscript" true) }}
+<body
+  id="documentTop"
+  data-lang="{{ .Lang }}"
+  data-code="{{ $codeBlockConfig.max }}"
+  data-lines="{{ $codeBlockConfig.lines }}"
+>
 
-   <!-- Bande noire du haut -->
-   <div class="top-black-bar"></div>
+  {{ partialCached "scripts/google/tag-manager" (dict "noscript" true) }}
 
-   <!-- Banderole blanche avec logos -->
-   {{ partial "top-banner.html" . }}
+  <!-- Bande noire du haut -->
+  <div class="top-black-bar"></div>
 
-   <!-- Bande noire avec menu -->
-   <div class="menu-wrapper">
+  <!-- Banderole blanche -->
+  {{ partial "top-banner.html" . }}
+
+  <!-- Menu -->
+  <div class="menu-wrapper">
     {{ partial "header.html" . }}
   </div>
 
+  <!-- CONTENU PAGE -->
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
 
-   <main>
-      {{ block "main" . }}{{ end }}
-   </main>
+  <!-- Sidebar flottante -->
+  <div id="floating-layer">
+    {{ partial "sidebar.html" . }}
+  </div>
 
+  {{ partialCached "icons" . }}
+  {{ partialCached "footer" . }}
+  {{ partialCached "scripts/index" . }}
+  {{ partialCached "hooks/body-end" . }}
 
-    {{- partialCached "icons" . }}
-    {{- partialCached "footer" . }}
-    {{- partialCached "scripts/index" . }}
-    {{- partialCached "hooks/body-end" . }}
-  </body>
-
-
-<div id="floating-layer">
-  {{ partial "sidebar.html" . }}
-</div>
-
-
+</body>
 </html>
