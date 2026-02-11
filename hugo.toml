@@ -35,13 +35,13 @@ title = "Inrae"
 [[menu.main]]
   name = "Équipe actuelle"
   url = "/equipe/actuel/"
-  parent = "equipe"
+  parent = "Équipe"
   weight = 1
 
 [[menu.main]]
   name = "Anciens membres"
   url = "/equipe/anciens/"
-  parent = "equipe"
+  parent = "Équipe"
   weight = 2 
 
 [[menu.main]]
