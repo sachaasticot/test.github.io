@@ -1,4 +1,4 @@
-baseURL = "https://sachaasticot.github.io/rhax-website.io/"
+baseURL = "https://sachaasticot.github.io/test.github.io/"
 publishDir = "docs"
 theme = "hugo-clarity"
 languageCode = "fr-fr"
